@@ -30,7 +30,7 @@ img {
 }
 
 h1 {
-    margin-bottom: 1em;
+    margin: 0.5em;
 }
 
 .container {
@@ -101,6 +101,9 @@ h1 {
             p:last-child {
                 font-size: 1.2rem;
                 color: rgb(231, 8, 8);
+                i {
+                    color: white;
+                }
             }
         }
     }

@@ -1,7 +1,9 @@
 <header>
     <div class="header-container">
         <div class="logo">
-            <img src="{{Vite::asset('resources/images/logo.png')}}" alt="">
+            <a href="/">
+                <img src="{{Vite::asset('resources/images/logo.png')}}" alt="">
+            </a>
         </div>
         <div class="menu">
             <ul>

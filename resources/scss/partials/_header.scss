@@ -12,6 +12,12 @@ body {
             align-items: center;
 
             .logo {
+                transition: 330ms;
+
+                &:hover {
+                    transform: scale(1.05);
+                    transition: 330ms;
+                }
                 img {
                     width: 9vmin;
                 }
@@ -30,6 +36,12 @@ body {
 
                     li {
                         cursor: pointer;
+                        transition: 330ms;
+
+                        &:hover {
+                            color: red;
+                            transition: 330ms;
+                        }
                     }
                 }
 
@@ -43,10 +55,16 @@ body {
                     input {
                         border: none;
                         background-color: transparent;
-                        width: 8em;
+                        width: 6em;
                         padding: 0.5em;
                         appearance: none;
                         color: white;
+                        transition: 900ms;
+
+                        &:hover {
+                            width: 13em;
+                            transition: 700ms;
+                        }
 
                         ::placeholder {
                             color: white !important;
