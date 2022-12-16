@@ -27,6 +27,10 @@ body {
                     display: flex;
                     flex-direction: row;
                     gap: 1em;
+
+                    li {
+                        cursor: pointer;
+                    }
                 }
 
                 .search {
@@ -39,8 +43,10 @@ body {
                     input {
                         border: none;
                         background-color: transparent;
-                        width: 5em;
+                        width: 8em;
+                        padding: 0.5em;
                         appearance: none;
+                        color: white;
 
                         ::placeholder {
                             color: white !important;
