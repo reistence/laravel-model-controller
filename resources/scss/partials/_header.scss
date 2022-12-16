@@ -1,7 +1,7 @@
 body {
     header {
         width: 100%;
-        background-color: red !important;
+        background-color: rgb(40, 39, 39);
 
         .header-container {
             width: 80%;
@@ -21,8 +21,13 @@ body {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-
                 gap: 1em;
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1em;
+                }
 
                 .search {
                     display: flex;
@@ -33,6 +38,13 @@ body {
 
                     input {
                         border: none;
+                        background-color: transparent;
+                        width: 5em;
+                        appearance: none;
+
+                        ::placeholder {
+                            color: white !important;
+                        }
                     }
 
                     i {

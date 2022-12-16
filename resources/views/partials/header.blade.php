@@ -1,4 +1,4 @@
-<div class="header">
+<header>
     <div class="header-container">
         <div class="logo">
             <img src="{{Vite::asset('resources/images/logo.png')}}" alt="">
@@ -16,4 +16,4 @@
             </div>
         </div>
     </div>
-</div>
+</header>
