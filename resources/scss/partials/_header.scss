@@ -1,9 +1,45 @@
-header {
-    width: 100%;
-    background-color: red !important;
+body {
+    header {
+        width: 100%;
+        background-color: red !important;
 
-    .header-container {
-        width: 80%;
-        margin: 0 auto;
+        .header-container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                img {
+                    width: 9vmin;
+                }
+            }
+
+            .menu {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                gap: 1em;
+
+                .search {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1em;
+                    align-items: center;
+                    border-bottom: 3px solid red;
+
+                    input {
+                        border: none;
+                    }
+
+                    i {
+                        color: red;
+                    }
+                }
+            }
+        }
     }
 }
